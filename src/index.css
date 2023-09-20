@@ -1,4 +1,5 @@
 body {
+  background-color: rgb(47, 45, 45);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,20 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  color: rgb(221, 195, 24);
+}
+
+#loginWindow{
+    align-items: center;
+    justify-content: space-around;
+    border: solid 3px  rgb(221, 195, 24);
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    min-height: 200px;
+    min-width: 300px;
+    width: 50vw;
 }

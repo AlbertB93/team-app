@@ -1,0 +1,11 @@
+*{
+  color: yellow;
+}
+
+.loginInput{
+  color: black;
+  display: flex;
+  height: 20px;
+  margin: 20px;
+  width: 300px;
+}
