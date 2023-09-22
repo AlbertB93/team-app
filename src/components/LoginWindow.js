@@ -8,7 +8,7 @@ class LoginWindow extends React.Component {
     }
 
     return (
-      <div>
+      <div id="loginWindow">
         <form
           className="login_form"
           method="post"
